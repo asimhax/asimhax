@@ -55,7 +55,7 @@ logo = """\033[1;93m█████████
 \033[1;93m█████████      \033[1;92m«----------✧----------»
 \033[1;93m ██ ██
 \033[1;93m╔════════════════════════════════════════════╗
-\033[1;93m║\033[1;96m* \033[1;93mAuthor  \033[1;93m : \033[1;93mBrother•|Mr.BLACK0304\033[1;93m          ║
+\033[1;93m║\033[1;96m* \033[1;93mAuthor  \033[1;93m : \033[1;93mBrother•|Mr.ASIM\033[1;93m          ║
 \033[1;93m║\033[1;96m* \033[1;93mFaceBook  \033[1;93m : \033[1;93m\033[4mhttps://facebook.com/asim.rauf\033[0m \033[1;93m║
 \033[1;93m║\033[1;96m* \033[1;93mWhatsApp \033[1;93m: \033[1;93m03033883025\033[1;93m                 ║
 \033[1;93m╚════════════════════════════════════════════╝"""
@@ -170,7 +170,7 @@ def menu():
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
-		name = a['name']
+		nama = a['name']
 		id = a['id']
 	except KeyError:
 		os.system('clear')
