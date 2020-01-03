@@ -82,8 +82,8 @@ print  """\033[1;96m [¤] \x1b[1;93mASSALAMUALAIKUM\x1b[1;96m  \033[1;96m   [¤]
 \033[1;96m [¤] \x1b[1;93mTOOLS ASIM.HAX\x1b[1;96m  [¤] \x1b[1;93mYOUTUBE  : ASIMHAX\x1b[1;96m"""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "ASIM"
-CorrectPassword = "ASIM"
+CorrectUsername = "ASIM1"
+CorrectPassword = "ASIM1"
 
 loop = 'true'
 while (loop == 'true'):
